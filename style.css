@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@300&display=swap');
+
+body {
+  font-family: Montserrat;
+  background-color: #f5f5f5;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: Nunito;
+  line-height: 1.6;
+  font-weight: bold
+}
+
+h1 {
+  font-size: 40px;
+  color: #14213D;
+}
+
+h2 {
+  font-size: 20px;
+  color: #fca311;
+}
+
+p {
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+a {
+  color: #afafafd3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.container {
+  width: 500px;
+  margin: 40px auto;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn-yellow {
+  background-color: #fca311;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-yellow:hover {
+  background-color: #14213d;
+}
+
+.card-white {
+  background: white;
+  padding: 40px;
+  margin: 20px 0px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  border-radius: 4%;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social-button {
+  font-size: 40px;
+}
+
+.social-button:hover {
+  color: #14213d;
+  font-size: 45px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
